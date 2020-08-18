@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(35, 35, 35);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: greenyellow;
+}
+
+#insert {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#insert button {
+  background-color: #e2e2e2;
+  font-size: 18px;
+  width: auto;
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 12px 0.5px rgb(173, 255, 47, 0.8);
+}
+
+#insert input {
+  color: black;
+  font-size: 18px;
+  width: auto;
+  height: 30px;
+
+  border-radius: 10px;
+  box-shadow: 5px 5px 12px 0.5px rgb(173, 255, 47, 0.8);
+}
+
+#list {
+  color: black;
+  font-size: 20px;
+  background-color: #e2e2e2;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 600px;
+  margin-top: 20px;
+  margin: auto;
+  box-shadow: 5px 5px 12px 0.5px rgb(173, 255, 47, 0.8);
+}
+
+.deleteButton {
+  margin-left: 10px;
+  border-radius: 80%;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(255, 0, 0);
+}
+
+.todoElement {
+  margin: 10px;
+}
